@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6DE7DBD0-B3A4-4346-8808-D8C52ADCE88D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="SigPadoca.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="SigPadoca">
+        <MSBuild Projects="SigPadoca.dproj"/>
+    </Target>
+    <Target Name="SigPadoca:Clean">
+        <MSBuild Projects="SigPadoca.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SigPadoca:Make">
+        <MSBuild Projects="SigPadoca.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="SigPadoca"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="SigPadoca:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="SigPadoca:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

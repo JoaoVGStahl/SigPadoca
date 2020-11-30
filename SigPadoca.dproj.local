@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/09/24 19:31:35.000.003,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/24 19:32:00.000.044,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntPrincipal.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/09/24 19:32:00.000.044,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntPrincipal.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/24 19:32:05.000.395,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\SigPadoca.dproj=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/10/09 11:57:29.000.761,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/09 12:21:25.000.509,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntClientes.pas</Transaction>
+    <Transaction>2020/10/09 12:21:25.000.509,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntClientes.dfm</Transaction>
+    <Transaction>2020/10/09 12:41:14.000.550,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/09 12:41:24.000.048,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntProdutos.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm</Transaction>
+    <Transaction>2020/10/09 12:41:24.000.048,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntProdutos.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/15 19:50:02.000.479,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/15 19:58:31.000.067,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntCalorias.pas</Transaction>
+    <Transaction>2020/10/15 19:58:31.000.067,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntCalorias.dfm</Transaction>
+    <Transaction>2020/10/29 19:27:45.000.733,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 19:28:47.000.780,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntVerificaIdade.pas</Transaction>
+    <Transaction>2020/10/29 19:28:47.000.780,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntVerificaIdade.dfm</Transaction>
+    <Transaction>2020/10/29 19:48:02.000.422,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 19:48:33.000.706,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntMaiorNumero.pas</Transaction>
+    <Transaction>2020/10/29 19:48:33.000.706,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntMaiorNumero.dfm</Transaction>
+    <Transaction>2020/10/29 20:17:29.000.426,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 20:18:12.000.199,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntLogin.pas</Transaction>
+    <Transaction>2020/10/29 20:18:12.000.199,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntLogin.dfm</Transaction>
+    <Transaction>2020/10/29 21:13:28.000.531,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 21:15:29.000.623,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntBancoDados.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 21:15:29.000.623,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntBancoDados.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm</Transaction>
+    <Transaction>2020/11/10 05:45:28.000.030,=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+    <Transaction>2020/11/10 05:46:33.000.045,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntFornecedores.dfm=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.dfm</Transaction>
+    <Transaction>2020/11/10 05:46:33.000.045,C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\UntFornecedores.pas=C:\Users\Valorant\Documents\Embarcadero\Studio\Projects\SistemaPadaria\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
