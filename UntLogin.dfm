@@ -2,7 +2,7 @@ object FrmLogin: TFrmLogin
   Left = 0
   Top = 0
   Caption = 'Acesso ao SigPadoca'
-  ClientHeight = 253
+  ClientHeight = 278
   ClientWidth = 380
   Color = clBtnHighlight
   Font.Charset = DEFAULT_CHARSET
@@ -278,6 +278,18 @@ object FrmLogin: TFrmLogin
       8E81A2F41D8C46C308CE0E5605F2452646A06893648624DF813C3A3EE35B07AD
       C392AB2F39E1D30E11FAF0BAADEA0841913BE4B1FB680471CFC8C6A4BFDF9409
       460D13037CE7F83FCE38BA267FF3B3E70000000049454E44AE426082}
+  end
+  object lblHorario: TLabel
+    Left = 83
+    Top = 243
+    Width = 7
+    Height = 25
+  end
+  object lblTest: TLabel
+    Left = 288
+    Top = 176
+    Width = 7
+    Height = 25
   end
   object EdtUser: TEdit
     Left = 163
@@ -826,5 +838,10 @@ object FrmLogin: TFrmLogin
     ParentFont = False
     TabOrder = 2
     OnClick = BtnEntrarClick
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 16
+    Top = 184
   end
 end

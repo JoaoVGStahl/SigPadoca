@@ -15,10 +15,14 @@ type
     EdtPass: TEdit;
     BtnEntrar: TBitBtn;
     Image1: TImage;
+    lblHorario: TLabel;
+    Timer1: TTimer;
+    lblTest: TLabel;
     procedure BtnEntrarClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
     procedure lblSairClick(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
   private
     { Private declarations }
   public
@@ -68,6 +72,11 @@ end;
 procedure TFrmLogin.lblSairClick(Sender: TObject);
 begin
    Close;
+end;
+
+procedure TFrmLogin.Timer1Timer(Sender: TObject);
+begin
+  lblHorario.Caption := FormatDateTime('dd/mm/yyyy | hh:mm:ss', Now);
 end;
 
 end.
