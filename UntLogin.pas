@@ -18,11 +18,13 @@ type
     lblHorario: TLabel;
     Timer1: TTimer;
     lblTest: TLabel;
+    Button1: TButton;
     procedure BtnEntrarClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
     procedure lblSairClick(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -36,7 +38,7 @@ implementation
 
 {$R *.dfm}
 
-uses UntPrincipal;
+uses UntPrincipal, UntTeste;
 
 procedure TFrmLogin.BtnEntrarClick(Sender: TObject);
 var
@@ -59,6 +61,12 @@ begin
     EdtPass.Text := '';
   end
 end;
+procedure TFrmLogin.Button1Click(Sender: TObject);
+begin
+  Application.CreateForm(TFrmTeste, FrmTeste);
+  FrmTeste.Show;
+end;
+
 procedure TFrmLogin.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   Action := caFree;

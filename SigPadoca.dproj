@@ -138,7 +138,7 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UntTeste.pas">
-            <Form>Form1</Form>
+            <Form>FrmTeste</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

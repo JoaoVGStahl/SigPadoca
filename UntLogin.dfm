@@ -839,6 +839,15 @@ object FrmLogin: TFrmLogin
     TabOrder = 2
     OnClick = BtnEntrarClick
   end
+  object Button1: TButton
+    Left = 282
+    Top = 245
+    Width = 75
+    Height = 25
+    Caption = 'Teste'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
   object Timer1: TTimer
     OnTimer = Timer1Timer
     Left = 40

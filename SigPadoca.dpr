@@ -11,7 +11,7 @@ uses
   UntLogin in 'UntLogin.pas' {FrmLogin},
   UntBancoDados in 'UntBancoDados.pas' {DmConexao: TDataModule},
   UntFornecedores in 'UntFornecedores.pas' {FrmFornecedores},
-  UntTeste in 'UntTeste.pas' {Form1};
+  UntTeste in 'UntTeste.pas' {FrmTeste};
 
 {$R *.res}
 
@@ -20,6 +20,6 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFrmLogin, FrmLogin);
   Application.CreateForm(TDmConexao, DmConexao);
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmTeste, FrmTeste);
   Application.Run;
 end.
